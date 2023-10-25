@@ -37,15 +37,12 @@ display:flex;
 padding: 4px;
 
 transition: transform .3s;
-
 }
 
 
 header div:hover {
     transform: scale(1.1);
-
 }
-
 
 header img{
     width: 100%;
@@ -95,7 +92,6 @@ section ul {
 
 selection ul li {
 transition: .3s;
-
 }
 
 section ul li:hover {
@@ -138,7 +134,7 @@ main section:nth-child(3) {
         opacity: 0;
         transform: translateY(-30px);
     }
-
+    
     to{
         opacity: 1;
     transform: translateY(0)
